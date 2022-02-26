@@ -4,22 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Moto Type</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <script type="module" src="./dist/app.js" defer></script>
   </head>
   <body>
-    <div>
-      <header>
-        <h1>MOTE WITH TYPES</h1>
-        <nav>
-          <ul>
-            <li><button>IMAGE</button></li>
-            <li><button>VIDEO</button></li>
-            <li><button>NOTE</button></li>
-            <li><button>TASK</button></li>
-          </ul>
-        </nav>
+    <div class="app">
+      <header class="banner">
+        <h1 class="banner__title">MOTO TYPE</h1>
+        <ul class="control-panel">
+          <li>
+            <button id="new-image" class="create-button">Image</button>
+            <button id="new-video" class="create-button">Video</button>
+            <button id="new-note" class="create-button">Note</button>
+            <button id="new-todo" class="create-button">Todo</button>
+          </li>
+        </ul>
       </header>
-      <footer></footer>
+      <main class="document"></main>
+      <footer>
+        <p>© Copyright by leo. All rights reserved.</p>
+      </footer>
     </div>
   </body>
 </html>
